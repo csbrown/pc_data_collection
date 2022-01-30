@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# generated data
+*.aes
+*.csv
+
+# R
+.Rproj.user
+.RData
+.Rhistory
