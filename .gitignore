@@ -11,3 +11,5 @@ __pycache__/
 .Rproj.user
 .RData
 .Rhistory
+*.html
+*.Rproj

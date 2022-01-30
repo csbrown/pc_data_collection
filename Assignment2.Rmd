@@ -1,0 +1,30 @@
+---
+title: "Assignment 02"
+author: "Scott Brown"
+date: "1/30/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+The University of Utah College of Engineering keeps 75 linux machines for student and faculty use.  Since there are so many machines, and IT resources are fixed, it is useful to have automated processes to monitor critical statistics about these machines and to report anomolous behavior to the IT department.  In order to facilitate our ability to identify machines that might be at risk, it is crucial to know a *baseline* state of the machines to which we can make useful comparisons.  In this study, we will investigate ping times, page fault rates, core temperatures and packet receipt rates when machines are expected to be "at rest" in order to establish such a baseline.  We will further investigate a baseline for integrity of the system's `openssl` AES encryption to provide a baseline for evidence that encryption libraries might be compromised.  We hope that your investigations now will provide a solid foundation for the future creation of automated processes that give insight into the health and stability of lab machines in the University of Utah College of Engineering.
+
+## Data Sources
+
+Describe your data sources.
+
+## Data Collection
+
+Describe how you collected your data.
+
+## Data Analysis
+
+Describe what you did to analyze your data.
+
+## Conclusions
+
+Tell us what you learned.
